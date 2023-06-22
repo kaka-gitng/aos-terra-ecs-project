@@ -7,7 +7,7 @@ data "aws_route53_zone" "hosted_zone" {
 resource "aws_route53_record" "site_domain" {
   zone_id = data.aws_route53_zone.hosted_zone.zone_id
   name    = var.record_name
-  type    = A
+  type    = "A"
 
   alias {
     name                   = aws_lb.application_load_balancer.dns_name
