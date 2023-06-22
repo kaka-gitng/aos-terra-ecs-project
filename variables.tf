@@ -66,3 +66,13 @@ variable "database_instance_class" {
   description   = "database instance type"
   type          = string
 }
+
+variable "database_instance_identifier" {
+  description   = "database instance identifier"
+  type          = string
+}
+
+variable "multi_az_deployment" {
+  description   = "create a standby db instance"
+  type          = bool
+}

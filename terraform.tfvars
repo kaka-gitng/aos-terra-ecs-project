@@ -14,3 +14,9 @@ private_data_subnet_az2_cidr="10.0.5.0/24"
 
 # security-group variables
 ssh_location="97.143.180.210/32" # "0.0.0.0/0" for anywhere on internet
+
+# rds variables
+database_snapshot_identifier="rentzone-docker-snapshot"
+database_instance_class="db.t2.micro"
+database_instance_identifier="dev-rds-db"
+multi_az_deployment="false"
