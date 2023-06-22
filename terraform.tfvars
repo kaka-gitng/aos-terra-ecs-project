@@ -20,3 +20,7 @@ database_snapshot_identifier="rentzone-docker-snapshot"
 database_instance_class="db.t2.micro"
 database_instance_identifier="dev-rds-db"
 multi_az_deployment="false"
+
+# amazon certifcate manager variables
+domain_name="kaka-aws.com"
+alternative_names="*.kaka-aws.com"
