@@ -50,7 +50,6 @@ variable "private_data_subnet_az2_cidr" {
   type          = string
 }
 
-
 # security-group variables
 variable "ssh_location" {
   description   = "ip address that can ssh into the server"
@@ -60,5 +59,10 @@ variable "ssh_location" {
 # rds variables
 variable "database_snapshot_identifier" {
   description   = "database snapshot name"
+  type          = string
+}
+
+variable "database_instance_class" {
+  description   = "database instance type"
   type          = string
 }

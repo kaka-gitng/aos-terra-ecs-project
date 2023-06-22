@@ -18,7 +18,7 @@ data "aws_db_snapshot" "latest_db_snapshot" {
 
 # launch an rds instance from a database snapshot
 resource "aws_db_instance" "database_instance" {
-  instance_class         = 
+  instance_class         = var.database_instance_class
   skip_final_snapshot    = 
   availability_zone      = 
   identifier             = 
