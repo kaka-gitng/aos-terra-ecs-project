@@ -24,3 +24,7 @@ multi_az_deployment="false"
 # amazon certifcate manager variables
 domain_name="kaka-aws.com"
 alternative_names="*.kaka-aws.com"
+
+# s3 variables
+env_file_bucket_name="aos-kaka-ecs-rentzone"
+env_file_name="rentzone.env"
