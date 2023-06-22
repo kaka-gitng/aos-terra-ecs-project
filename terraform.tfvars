@@ -28,3 +28,7 @@ alternative_names="*.kaka-aws.com"
 # s3 variables
 env_file_bucket_name="aos-kaka-ecs-rentzone"
 env_file_name="rentzone.env"
+
+# ecs variables
+architecture="X86_64"
+container_image="782434001163.dkr.ecr.us-east-1.amazonaws.com/rentzone:latest"
